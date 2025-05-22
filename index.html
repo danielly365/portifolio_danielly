@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Danielly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <link defer rel="stylesheet" href="css/custom.css">
+    
+</head>
+<body>
+    <header class="container-nav">
+        <div class="nav-bar">
+            <div class="nome">
+                <p class="tilt-warp">Danielly Cristina Ferrareze</p>
+            </div>
+            <div class="info-site">
+                <a href="#sobre" class="tilt-warp">SOBRE MIM</a>
+                <a href="#" class="tilt-warp">HABILIDADES</a>
+                <a href="#" class="tilt-warp">PROJETOS</a>
+                <a href="#" class="tilt-warp">CONTATO</a>
+            </div>
+            <div class="info-site-mobile">
+                <div class="info">
+                    <i class="material-icons" onclick="ativarmenu()">menu</i>
+                </div>
+                <div class="menu-mobile" id="mobile">
+                    <i class="material-icons" onclick="ativarmenu()">close</i>
+                    <ul>
+                        <li>
+                            <a href="#sobre" class="tilt-warp" onclick="ativarmenu()">SOBRE MIM</a>
+                        </li>
+                        <li>
+                            <a href="#habilidades" class="tilt-warp" onclick="ativarmenu()">HABILIDADES</a>
+                        </li>
+                        <li>
+                            <a href="#projetos" class="tilt-warp" onclick="ativarmenu()">PROJETOS</a>
+                        </li>
+                        <li>
+                            <a href="#contatos" class="tilt-warp" onclick="ativarmenu()">CONTATO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="overflow">
+        <div class="container-sobre-mim">
+            <div class="mascara">
+                <div class="sobre-mim" id="sobre">
+                    <div class="foto">
+                        <img src="imagens/topo/WhatsApp Image 2025-04-21 at 17.32.54.jpeg"/>
+                    </div>
+                    <div class="texto">
+                        <p class="tilt-warp">Sou apaixonada por tecnologia e criatividade. Iniciei minha jornada no mundo daprogramação no <b>SENAI Alvares Romi</b>, onde cursei <b>Desenvolvimento de Sistemas</b>. Foi lá quedei meus primeiros passos em <b>lógica de programação, desenvolvimento web e banco de dados</b>.Atualmente, estou cursando <b>Jogos Digitais na FATEC de Americana</b>, onde tenho exploradoaindamais meu lado criativo através da criação de jogos com narrativas envolventes edesenvolvimentocompleto de projetos. Além disso, estou me especializando em <b>Web Design</b>,unindo a estética àfuncionalidade para criar experiências digitais mais atrativas eintuitivas. Tenho interesse em áreascomo <b>front-end, UI/UX</b> e também gosto de explorar o universo dos jogos como forma de expressãoe impacto social.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-habilidades" id="habilidades">
+                <div class="habilidades">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="slide swiper-slide">
+                                <img src="imagens/habilidades/git.png"/>
+                            </div>
+                            <div class="slide swiper-slide">
+                                <img src="imagens/habilidades/html.png"/>
+                            </div>
+                            <div class="slide swiper-slide">
+                                <img src="imagens/habilidades/java-script.png"/>
+                            </div>
+                            <div class="slide swiper-slide">
+                                <img src="imagens/habilidades/mysql-database.png"/>
+                            </div>
+                            <div class="slide swiper-slide ">
+                                <img src="imagens/habilidades/web.png"/>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="container-texto">
+                    <div class="texto">
+                        <p class="tilt-warp">
+                            Tenho maior afinidade com desenvolvimento web, com foco em JavaScript, HTML, CSS, PHP e MySQL. Essas são as tecnologias que mais domino e com as quais me sinto confiante para criar projetos completos, tanto no front-end quanto no back-end. Estou sempre em busca de melhoras e de estudar outras linguagens.</p>
+                    </div>
+                </div>
+        </div>
+
+        <div class="container-projetos" id="projetos">
+            <div class="container-texto">
+                <div class="texto">
+                    <p class="tilt-warp">Todos os meus projetos estão disponíveis no meu GitHub, onde você pode acompanhar meu progresso, organização de código e aprendizado contínuo. No momento, ainda não publiquei projetos em produção (deploy), mas estou trabalhando para disponibilizá-los em breve.</p>
+                    <a href="#" class="tilt-warp">Veja os meus projeto disponíveis no github!</a>
+                </div>
+            </div>
+            <div class="container-card">
+                <div class="card">
+                    <img src="imagens/projetos/arena.png"/>
+                    <p class="tilt-warp">Jogo Arena fps desenvolvido na Unity. Ele roda somente em pc.</p>
+                </div>
+                <div class="card">
+                    <img src="imagens/projetos/selva.png"/>
+                    <p class="tilt-warp">Jogo Temple Run desenvolvido na Unity. Ele roda em pc e celular.</p>
+                </div>
+                <div class="card">
+                    <img src="imagens/projetos/petapp.png"/>
+                    <p class="tilt-warp">Projeto de design feito no figma. Consiste em um aplicativo de adoção.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container-rodape" id="contatos">
+            <div class="rodape">
+                <div class="coluna-um">
+                    <a href="#" class="tilt-warp">SOBRE MIM</a>
+                    <a href="#" class="tilt-warp">HABILIDADES</a>
+                    <a href="#" class="tilt-warp">PROJETOS</a>
+                </div>
+                <div class="coluna-dois">
+                    <a href="#" class="tilt-warp">CONTATO</a>
+                    <div class="forma-contato-mobile">
+                        <img src="imagens/contato/whatsapp.png"/>
+                        <img src="imagens/contato/gmail.png"/>
+                        <img src="imagens/contato/linkedin.png"/>
+                    </div>
+                    <div class="forma-contato">
+                        <p class="tilt-warp">(19) 987126746</p>
+                    </div>
+                    <div class="forma-contato">
+                        <img src="imagens/contato/gmail.png"/>
+                        <p class="tilt-warp">ferrareziedanielly@gmail.com</p>
+                    </div>
+                    <div class="forma-contato">
+                        <img src="imagens/contato/linkedin.png"/>
+                        <p class="tilt-warp">www.linkedin.com/in/danielly-ferrareze-607a77228</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+         slidesPerView: 3,
+
+        
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+        autoplay: {
+            delay: 3000, // muda o slide a cada 3 segundos (3000 milissegundos)
+        },
+        });
+    </script>
+</body>
+</html>
